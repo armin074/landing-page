@@ -1,0 +1,64 @@
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    font-family:'Poppins', sans-serif;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#hero-section {
+    background-image: url(imgs/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hero-section h1 {
+    background-color: rgb(16, 82, 16);
+    
+}
+@media (max-width: 576px) {
+.text-sm-center {
+    text-align: center!important;
+}
+}
+
+@media (max-width: 576px) {
+    .align-items-sm-center {
+        align-items: center!important;
+    }
+    }
+
+
+.vh-80 {
+    height: 80vh!important;
+}
+
+.vh-50 {
+    height: 50vh!important;
+}
+@media (max-width: 820px) {
+    #recent {
+        margin-top: 250px!important;
+    }
+    }
+.card {
+    border: 0px;
+}
+
+.list-group-item {
+    color: #fff;
+    background-color: #212529;
+    border:1px solid #fff;
+}
